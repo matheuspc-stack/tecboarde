@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" href="./img/roxo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./css/estilos.css">
+
+  <title>Tecboard</title>
+
+</head>
+<body class="fundo-escuro">
+  
+  <header>
+    <img src="./img/logobranco.png" alt="logotipo da Tecboard">
+  </header>
+  <main>
+    <section>
+      <h1>
+        <span>Fique de olho</span>
+        <br>no que importa
+
+      </h1>
+      
+      <p>monitoramento em tempo real com alertas inteligentes para sua aplicação
+        nunca sair do ar sem você saber.</p>
+
+      <a href="#" onclick="trocarfundo()">testar versao demo</a>
+        
+      <img src="./img/celulcarpc.png" alt="Dois celulares pretos sobrepostos mostrando a tela de monitoramento da tecnoboard">
+    </section>
+  </main>
+      <script>
+      function trocarfundo(){
+        var body = document.querySelector(".fundo-escuro")
+        body.className = ''
+      }
+      </script>
+   
+  </body>
+  </html>
